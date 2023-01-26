@@ -6,7 +6,7 @@ local plrs = game:GetService("Players")
 local lplr = game:GetService("Players").LocalPlayer
 local TeamBased = false ; local teambasedswitch = ""
 local presskeytoaim = true; local aimkey = "q"
-aimbothider = false; aimbothiderspeed = 0.2
+aimbothider = false; aimbothiderspeed = 0.155
 local Aim_Assist = false ; Aim_Assist_Key = {Enum.KeyCode.LeftControl, "z"}
 local espupdatetime = 5; autoesp = false; local charmsesp = true
 local movementcounting = true
@@ -20,7 +20,7 @@ local lockaim = true; local lockangle = 5
 local ver = ""
 local cam = game.Workspace.CurrentCamera
 local BetterDeathCount = true
-local ballisticsboost = 0
+local ballisticsboost = -0.5
 
 local mouse = lplr:GetMouse()
 local switch = false
@@ -77,7 +77,7 @@ local mousedown = false
 local isonmovething = false
 local mouseoffset = Vector2.new()
 local mousedown = false
-local bspeed = 300
+local bspeed = 205
 local aimbotoffset = {dd = ":", sp = " ", qa = "a", qb = "b",qc = "c", qd = "d", qe = "e", qf = "f", qg = "g" , qh = "h" , qi = "i", qj = "j", qk = "k", ql = "l", qm = "m", qn = "n", qo = "o", qp = "p", qq = "q", qr = "r", qs = "s", qt = "t", qu = "u", qv = "w", qx = "x", qy = "y", qz = "z"}
 
 
@@ -175,7 +175,7 @@ st1_3.BackgroundTransparency = 1
 st1_3.Position = UDim2.new(0, 0, 0.18558608, 0)
 st1_3.Size = UDim2.new(0.999999881, 0, 0.161862016, 0)
 st1_3.Font = Enum.Font.ArialBold
-st1_3.Text = "300"
+st1_3.Text = "205"
 st1_3.TextColor3 = Color3.new(0.0431373, 1, 0.0745098)
 st1_3.TextScaled = true
 st1_3.TextSize = 14
